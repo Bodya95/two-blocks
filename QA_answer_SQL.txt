@@ -1,0 +1,12 @@
+1)SELECT * FROM Aditem12 a 
+LEFT JOIN  Campaign12 c 
+ON c.id = 1
+
+2)SELECT Aditem_somevalue FROM   Aditem12
+ORDER BY Aditem_somevalue DESC
+LIMIT 1
+
+3)/****** Только в заданных Вами условиях таблицы Admited не было ******/
+SELECT * FROM Admited 
+WHERE aditem_description 
+LIKE '%Aditem_test%'

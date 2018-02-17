@@ -1,0 +1,14 @@
+#block_1 {
+	width: 400px;
+	height: 400px;
+	float: left;
+	background: orange;
+}
+
+#block_2{
+	width: 400px;
+	height: 400px;
+	float: right;
+	background: green;
+}
+
